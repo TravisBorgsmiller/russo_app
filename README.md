@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the repository to Conor Russo's online website for his <insert company> soon to be launching in November. 
 
-Things you may want to cover:
+* Ruby version - 2.6.3
+* Rails version - 6.0.4.1
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Will be using postgres for the database deployed on Heroku. 
+  
