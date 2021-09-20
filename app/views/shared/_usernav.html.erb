@@ -1,0 +1,9 @@
+<section class ="top-nav-right">
+<%= link_to "Home", "/" %>
+<%= link_to "About Us", "/aboutus" %>
+<%= link_to "Contact Us", "/contactus" %>
+<%= link_to "Admin Dashboard", "/dashboard" %>
+<%= link_to "Log Out", '/logout', method: :delete %>
+</section>
+
+<p>Logged in as <%= "#{current_user.name}" %></p>

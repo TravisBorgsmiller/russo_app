@@ -10,6 +10,18 @@
   </head>
 
   <body>
+    <nav class = "topnav">
+      <% if current_user %>
+        <%= render "shared/usernav" %>
+      <% else %>
+        <%= render "shared/customernav" %>
+      <% end %>
+    </nav>
+    <% flash.each do |name, msg| %>
+      <div class= "<%=name%>-flash">
+        <p><%= msg %></p>
+      </div>
+    <% end %>
     <%= yield %>
   </body>
 </html>
